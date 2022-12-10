@@ -1,0 +1,45 @@
+* {
+    font-style: italic;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: 'Kalam', cursive;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(225, 190, 75);
+    display: block;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+}
+
+button {
+    background-color: rgb(225, 190, 75);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+}
+
+#output {
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(225, 190, 75);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
