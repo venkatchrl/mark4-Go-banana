@@ -1,45 +1,57 @@
+h1 {
+    font-size: 30px;
+}
+
 * {
     font-style: italic;
     text-align: center;
-    box-sizing: border-box;
-    font-size: large;
     font-family: 'Kalam', cursive;
+}
+
+body {
+    margin: 0rem;
 }
 
 nav {
     text-align: center;
-    background-color: rgb(225, 190, 75);
-    display: block;
+    background-color: rgb(152, 162, 187);
 }
 
 textarea {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    min-height: 20vh;
-    margin-top: 2rem;
+    width: 50%;
+    height: 1.5in;
+    margin: 2rem 3rem;
 }
 
 button {
-    background-color: rgb(225, 190, 75);
+    background-color: rgb(152, 162, 187);
     border: none;
-    margin: 1rem 0rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
+    font-size: large;
+}
+
+#btn-translate:hover {
+    background-color: rgb(211, 217, 187);
 }
 
 #output {
-    width: 100%;
-    min-height: 10vh;
-    max-height: 20vh;
+    width: 90%;
+    height: 1.5in;
+    margin: 2rem 3rem;
     overflow: scroll;
     border: 1px solid black;
 }
 
+
 footer {
-    text-align: center;
-    background-color: rgb(225, 190, 75);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: block;
+    /* background-color: rgb(173, 177, 198);*/
+    background-color: yellow;
+    padding: 1rem;
+    margin-top: 2rem;
+
+}
+
+#footer-content {
+    font-size: x-large;
+    color: rgb(65, 69, 62);
 }
